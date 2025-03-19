@@ -28,6 +28,8 @@ body{
     border-collapse: collapse;
 }
 
+
+
 .lakasok th,
 .lakasok td {
     border: 1px solid #56c40d;
@@ -50,7 +52,7 @@ body{
 
 
 h1 {
-    text-align: center;
+    text-align: right;
 }
 
 
@@ -123,3 +125,24 @@ h1{
 .back-btm:hover {
     background-color: #005600;
 }
+
+
+input, textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.input-field{
+    display: flex;
+}
+
+.left-side .name,
+.left-side .email{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
